@@ -24,6 +24,7 @@
 //FIM AULA 3
 
 //INICIO AULA 4
+//OBJETOS
 // let nome = 'Maria';
 // let idade = 21;
 // let anoNascimento = 2000;
@@ -40,4 +41,11 @@
 //FIM AULA 4
 
 //INICIO AULA 5
+//ARRAYAS
+let familia = ['Gustavo','Marcio','Henrique','Sei la'];
+console.log(familia.length); //tamanho do array
+console.log(familia);
+let colega = ['Henrique',21,2000];
+//testando...
+console.log('O nome do meu amigo é ',colega[0],' ele tem ',colega[1],'anos e nasceu no ano de ',colega[2]);
 //FIM AULA 5
