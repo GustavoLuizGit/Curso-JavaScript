@@ -42,10 +42,31 @@
 
 //INICIO AULA 5
 //ARRAYAS
-let familia = ['Gustavo','Marcio','Henrique','Sei la'];
-console.log(familia.length); //tamanho do array
-console.log(familia);
-let colega = ['Henrique',21,2000];
-//testando...
-console.log('O nome do meu amigo é ',colega[0],' ele tem ',colega[1],'anos e nasceu no ano de ',colega[2]);
+// let familia = ['Gustavo','Marcio','Henrique','Sei la'];
+// console.log(familia.length); //tamanho do array
+// console.log(familia);
+// let colega = ['Henrique',21,2000];
+// //testando...
+// console.log('O nome do meu amigo é ',colega[0],' ele tem ',colega[1],'anos e nasceu no ano de ',colega[2]);
 //FIM AULA 5
+
+//INICIO AULA 6 FUNCTIONS
+//nomear uma função= verbo + substantivo
+// let corSite = "Azul";
+// function resetaCor(cor, tonalidade){
+//     corSite = cor +' ' +  tonalidade;
+// };
+
+// console.log(corSite);
+// resetaCor("vermelho", "claro");
+// console.log(corSite);
+// let idade = 21;
+// let ano = 2000;
+// function alterarNascimento(ida,an){
+//     idade = ida;
+//     ano = an;
+// }
+// console.log('Idade : ',idade,' Ano : ',ano);
+// alterarNascimento(19,1999);
+// console.log('Idade : ',idade,' Ano : ',ano);
+//FIM AULA 6
