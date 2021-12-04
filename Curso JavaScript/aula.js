@@ -70,3 +70,20 @@
 // alterarNascimento(19,1999);
 // console.log('Idade : ',idade,' Ano : ',ano);
 //FIM AULA 6
+
+//Inicio aula 7 - Tipos de funções
+//Nao utiliza retorno
+function dizerNome(){
+    console.log('Jhonatan');
+}
+dizerNome();
+
+//retorna valor
+// function multiplicarPorDois(valor){
+//     return valor * 2;
+// }
+// console.log(multiplicarPorDois(5));
+
+// let resultado = multiplicarPorDois(4);
+// console.log(resultado);
+//Fim aula 7 
