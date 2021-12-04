@@ -1,0 +1,7 @@
+Entra na pagina atraves do view, aperta no f12.
+Na aba console.
+La voce pode escreve typeof nomveVariavel que o google mesmo era retornar o tipo dela.
+La voce pode dar valor a variavle escrendo nome=5.Se reescrever o typeof novamente vai dizer que é number, sendo que era
+string.
+
+CTRL+L da um clear na tela

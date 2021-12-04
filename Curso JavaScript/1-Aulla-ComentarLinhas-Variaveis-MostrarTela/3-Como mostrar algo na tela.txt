@@ -1,0 +1,4 @@
+Console.Log()
+Dentro do parenteses voce coloca o que quer mostrar.
+Se for string ''
+se for variavel escreve o nome dela.

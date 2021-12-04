@@ -1,0 +1,1 @@
+let nomeVariavel e atribui um valor a ela 
