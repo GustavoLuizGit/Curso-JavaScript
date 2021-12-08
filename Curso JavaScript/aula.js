@@ -73,10 +73,10 @@
 
 //Inicio aula 7 - Tipos de funções
 //Nao utiliza retorno
-function dizerNome(){
-    console.log('Jhonatan');
-}
-dizerNome();
+// function dizerNome(){
+//     console.log('Jhonatan');
+// }
+// dizerNome();
 
 //retorna valor
 // function multiplicarPorDois(valor){
@@ -87,3 +87,69 @@ dizerNome();
 // let resultado = multiplicarPorDois(4);
 // console.log(resultado);
 //Fim aula 7 
+
+
+//Inicio Aula 8 - Operadores
+//Operadores Arimeticos
+// salario = 100;
+// console.log(salario + salario);
+// console.log(salario - 50);
+// console.log(salario/4);
+// console.log(5 ** 5);
+//let idade = 18;
+//console.log(++idade);
+//console.log(idade++); mas como a operação é primeiro, vai mostrar o 18 pra dps incrementar
+//console.log(--idade);
+//console.log(idade--); mesmo caso do ++ dps
+
+//Operadores Atribuição
+// let valorTecladoGamer = 100;
+// valorTecladoGamer += valorTecladoGamer;
+// //valorTecladoGamer = valortecladoGamer + valorTecladoGamer
+// console.log(valorTecladoGamer);
+// valorTecladoGamer -= valorTecladoGamer;
+// console.log(valorTecladoGamer);
+
+//Operadores de Comparação
+//Igualdade estrita 
+// console.log(1 === 1); //comparando o tipo ou seja esse é verdadeiro
+// console.log('1' === 1); // e esse é falso
+
+// //Igualdade solta
+// console.log ( 1 == 1); // comparando o numero, ou seja, ve se o 1 é realmente 1 e nao o tipo sao iguais , ou seja verdadeiro
+// console.log ('1' == 1) // tambem verdadeiro
+// let pontos = 150;
+// let tipo = pontos >100 ? 'premium' : 'comum';
+// voce faz (expressao) ? escreve o que recebe :(senao) isso;
+// console.log(tipo);
+
+//Operadores Lógicos
+//and-e (&&)
+//console.log(false && false);
+// let maiorDeIdade = true;
+// let possuiCarteiraDeTrabalho = false;
+// let podeAplicar = maiorDeIdade && possuiCarteiraDeTrabalho;
+// console.log(podeAplicar);
+
+// //or - ou (||)
+// podeAplicar = maiorDeIdade || possuiCarteiraDeTrabalho;
+// console.log(podeAplicar);
+
+// //Not (!)
+// let candidatoRecusador = (!podeAplicar);
+// console.log(candidatoRecusador);
+//Fim aula 8 
+
+//Inicio aula 9 - Troca de valores de variaveis
+// let a = 'vermelho';
+// let b = 'azul';
+
+// console.log(a);
+// console.log(b);
+
+// let aux = b;
+// b = a;
+// a = aux;
+// console.log(a);
+// console.log(b);
+//Fim aula 9
