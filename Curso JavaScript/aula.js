@@ -242,4 +242,9 @@
 //     }
 // }
 // console.log(maiorValor(4,4));
+
+// function maiorValor(num1,num2){
+//     return num1 > num2 ? num1 : num2;
+// }
+// console.log(maiorValor(5,3));
 //Fim aula 13
