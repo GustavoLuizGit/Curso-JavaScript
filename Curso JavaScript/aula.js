@@ -185,3 +185,46 @@
 
 // }
 //Fim aula 11
+
+//Inicio aula 12 - Laços de repetição
+//For
+// for(let i = 0; i<5; i++){
+//     if(i % 2 !== 0){ //apenas impares
+//         console.log(i);
+//     }
+// }
+    
+//While
+// let i = 5;
+// while (i>0){
+//     console.log(i);
+//     i--;
+// }
+
+//Do..While
+// let i = 0;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<10);
+
+//For..In
+// const pessoa = {
+//     nome :'Gustavo',
+//     idade: 25
+// };
+//key-value
+// for(let chave in pessoa){
+//     console.log(chave,pessoa['nome']);
+// }
+// const cores = ['Vermelho','Azul','Verde'];
+// for (let indice in cores){
+//     console.log(indice,cores[indice])
+// }
+
+//For..of
+// for(let cor of cores){
+//     console.log(cor);
+// }
+
+//Fim aula 12
