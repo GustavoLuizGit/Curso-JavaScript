@@ -155,14 +155,33 @@
 //Fim aula 9
 
 //Aula 10 - IF
-let hora = 06;
-if (hora >=0 && hora<=12){
-    console.log("Bom dia !");
-}
-else if (hora >= 12 && hora<=18){
-    console.log("Boa tarde");
-}
-else{
-    console.log("Boa noite");
-}
-//Fim aula 19
+// let hora = 06;
+// if (hora >=0 && hora<=12){
+//     console.log("Bom dia !");
+// }
+// else if (hora >= 12 && hora<=18){
+//     console.log("Boa tarde");
+// }
+// else{
+//     console.log("Boa noite");
+// }
+//Fim aula 10
+
+//Aula 11 - switch
+// let permissao = 'Gerente'; //comum, gerente, diretor
+
+// switch (permissao){
+//     case 'Comum':
+//         console.log("Usuário comum");
+//         break;
+//     case 'Gerente':
+//         console.log("Usuário Gerente");
+//         break;
+//     case 'Diretor':
+//         console.log("Usuário diretor");
+//         break;
+//     default:
+//         console.log("Usuário não reconhecido");
+
+// }
+//Fim aula 11
