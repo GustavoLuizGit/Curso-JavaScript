@@ -226,5 +226,20 @@
 // for(let cor of cores){
 //     console.log(cor);
 // }
-
 //Fim aula 12
+
+//Inicio aula 13 - Exercicio
+//Escreva uma função que usa 2 números e retorna o maior entre eles
+// function maiorValor(num1,num2){
+//     if(num1>num2){
+//         return num1;
+//     }
+//     else if (num2>num1){
+//         return num2;
+//     }
+//     else{
+//         return "São iguais";
+//     }
+// }
+// console.log(maiorValor(4,4));
+//Fim aula 13
