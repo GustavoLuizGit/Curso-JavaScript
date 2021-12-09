@@ -341,3 +341,18 @@
 // }
 // exibirPropriedades(pessoa);
 //Fim aula 17
+
+//Inicio Aula 18 - Somar limite
+//Criar uma função que some e retorne a soma 
+//de todos os multipos de 3 e 5
+function somar(limite){
+    let soma = 0;
+    for(let i = 1; i<=limite; i++){
+        if(i % 3 ==0 || i % 5 ==0){
+            soma = soma + i;
+        }
+    }
+    return soma;
+}
+console.log(somar(15));
+//Fim aula 18
