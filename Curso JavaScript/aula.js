@@ -248,3 +248,31 @@
 // }
 // console.log(maiorValor(5,3));
 //Fim aula 13
+
+//Inicio aula 14 - FizzBuzz
+//Divisivel por 3 => Fizz
+//Divisivel por 5 => Buzz
+//Divisivel por ambos => FizzBuzz
+//Não divisivel por 3 ou 5 => Entrada
+//Não é um numero =>"Não é número";
+// function fizzBuzz(entrada)
+// {
+//     if(typeof entrada != 'number'){
+//         return 'Não é um número';
+//     }
+//     else if(entrada % 5 == 0 && entrada % 3 == 0){
+//         return 'FizzBuzz';
+//     }
+//     else if(entrada % 5 == 0){
+//         return 'Buzz';
+//     }
+//     else if(entrada % 3 == 0){
+//         return 'Fizz';
+//     }
+//     else{
+//         return entrada;
+//     }
+// }
+// const resultado = fizzBuzz(11);
+// console.log(resultado);
+//Fim aula 14
