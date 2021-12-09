@@ -345,14 +345,41 @@
 //Inicio Aula 18 - Somar limite
 //Criar uma função que some e retorne a soma 
 //de todos os multipos de 3 e 5
-function somar(limite){
-    let soma = 0;
-    for(let i = 1; i<=limite; i++){
-        if(i % 3 ==0 || i % 5 ==0){
-            soma = soma + i;
-        }
-    }
-    return soma;
-}
-console.log(somar(15));
+// function somar(limite){
+//     let soma = 0;
+//     for(let i = 1; i<=limite; i++){
+//         if(i % 3 ==0 || i % 5 ==0){
+//             soma = soma + i;
+//         }
+//     }
+//     return soma;
+// }
+// console.log(somar(15));
 //Fim aula 18
+
+//Inicio aula 19 - Media Nota Escolar
+//Obeter a media a partir de um array
+//0-59:F
+//60-69:D
+// 70-79:C
+// 80-89:B
+// 90-100:A
+// const array = [10,78,78];
+
+// function mediaDoAluno(notas){
+//     let notaFinal = 0;
+//     for(let nota of notas){
+//         notaFinal = notaFinal + nota;
+//     }
+//     notaFinal = notaFinal/(notas.length);
+    
+//     if (notaFinal <= 59) return 'F';
+//     if (notaFinal <= 69) return 'D';
+//     if (notaFinal <= 79) return 'C';
+//     if (notaFinal <= 89) return 'B';
+//     if (notaFinal <= 100) return 'A';
+//     return 'Fora dos padrões de soma';
+// }
+// console.log(mediaDoAluno(array));
+
+//Fim aula 19
