@@ -320,3 +320,24 @@
 // }
 // ExibirTipo(10);
 //Fim aula 16
+
+//Inicio Aula 17 - ExibirPropriedades
+//Criar um metodo para ler propriedades de um objeto e 
+//Exibir somente as propriedades do tipo string que estão nesse objeto
+// let pessoa = {
+//     nome : 'Gustavo Luiz',
+//     idade : 21,
+//     sobrenome : 'Oliveira',
+//     anoNascido : 2000,
+//     estadoCivil: 'Solteiro',
+//     profissao : 'vagabundo'
+// };
+// function exibirPropriedades(objeto){
+//     for(let stringaux in objeto){
+//         if (typeof objeto[stringaux] === 'string'){
+//             console.log(stringaux, objeto[stringaux]);
+//         }
+//     }
+// }
+// exibirPropriedades(pessoa);
+//Fim aula 17
