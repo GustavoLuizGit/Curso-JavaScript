@@ -304,3 +304,19 @@
 
 // console.log(verificarVelocidade(75));
 //Fim aula 15
+
+//Inicio aula 16 - Par ou impar
+//Receber uma quantidade de valores para avaliar
+//A função exibe se cada valor é par ou impar
+// function ExibirTipo(limite){
+//     for (let i=0; i<=limite; i++){
+//         if(i % 2 === 0){
+//             console.log(i,'Par');
+//         }
+//         else{
+//             console.log(i,'Impar');
+//         }
+//     }
+// }
+// ExibirTipo(10);
+//Fim aula 16
