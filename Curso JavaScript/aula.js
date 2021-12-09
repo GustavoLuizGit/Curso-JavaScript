@@ -276,3 +276,31 @@
 // const resultado = fizzBuzz(11);
 // console.log(resultado);
 //Fim aula 14
+
+//Inicio aula 15 - verificarVelocidade
+//Velocidade maxima de até 70 km
+//A cada 5 km acima do limite voce ganhara 1 ponto
+//Math.Floor()//Arrendonda o float para int
+//aso pontos maior que 12 -> "Carteira Suspendida" 
+// function verificarVelocidade(velocidade){
+//     let pontos = 0;
+//     if (velocidade <= 70){
+//         return "OK";
+//     }
+//     else
+//     {
+//         let pontos = Math.floor((velocidade - 70)/5);
+//         if(pontos > 12){
+//             return "Carteira suspensa";
+//         }
+//         else if(pontos<1){
+//             return "Diminua sua velocidade, pontos a partir de 75km";
+//         }
+//         else{
+//             return pontos
+//         }
+//     }
+// }
+
+// console.log(verificarVelocidade(75));
+//Fim aula 15
