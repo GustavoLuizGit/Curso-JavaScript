@@ -383,3 +383,26 @@
 // console.log(mediaDoAluno(array));
 
 //Fim aula 19
+
+//Inicio aula 20 - Quantidade de asteriscos
+ //Criar uma função que exibe a quantidade de *
+ // que aquela linha possui
+// function exibirAstericos(linhas){
+//     let aux = '';
+//     for(let i=0; i<linhas; i++ ){
+//         aux += '*';
+//         console.log(aux);
+//     }
+//  }
+//  exibirAstericos(5);
+function exibirAstericos(linhas){
+    for(let i = 1; i<=linhas; i++){
+        let padrao = '';
+        for(let j =0; j<i; j++){
+            padrao +="*";
+        }
+        console.log(padrao);
+    }
+}
+exibirAstericos(5);
+//Fim aula 20
