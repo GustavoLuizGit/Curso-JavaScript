@@ -409,18 +409,54 @@
 
 //Inicio aula 21 - Mostra números primos
 //Passar um limite e mostrar os números primos
-function ePrimo(numero){
-        for(let divisor = 2; divisor < numero; divisor++){
-            if(numero % divisor === 0){
-                return false;
-            }
-        }
-        return true;
-}
-function mostrarPrimo(limite){
-    for(let numero = 2; numero <=limite; numero++){
-        if(ePrimo(numero)) console.log(numero);
-    }
-}
-mostrarPrimo(30);
+// function ePrimo(numero){
+//         for(let divisor = 2; divisor < numero; divisor++){
+//             if(numero % divisor === 0){
+//                 return false;
+//             }
+//         }
+//         return true;
+// }
+// function mostrarPrimo(limite){
+//     for(let numero = 2; numero <=limite; numero++){
+//         if(ePrimo(numero)) console.log(numero);
+//     }
+// }
+// mostrarPrimo(30);
 //Fim aula 21
+
+//Aula 22 - Factory Functions (Função de Fabrica)
+// function criarCelular(marcaCelularx,tamanhoTelax, capacidadeBateriax){
+//     return {
+//         marcaCelular : marcaCelularx,
+//         tamanhoTela : tamanhoTelax,
+//         capacidadeBateria : capacidadeBateriax,
+//         ligar(){
+//             console.log("Fazendo ligação...")
+//         }
+//     }
+
+    // or // se os parametros possuissem o mesmo nome
+    // return {
+    //     marcaCelular,
+    //     tamanhoTela,
+    //     capacidadeBateria,
+    //     ligar : function(){
+    //         console.log("Fazendo ligação...")
+    //     }
+    // }
+// };
+
+// const celular = criarCelular('Zenfone',5.5,5000);
+// console.log(celular);
+
+// function criarMesa(tamanhoMesa, marca, quantidadePes){
+//     return{
+//         tamanhoMesa,
+//         marca,
+//         quantidadePes
+//     }
+// };
+
+// const mesa = criarMesa('5m','MarcaQuadrada',4);
+// console.log(mesa);
