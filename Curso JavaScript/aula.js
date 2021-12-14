@@ -395,14 +395,32 @@
 //     }
 //  }
 //  exibirAstericos(5);
-function exibirAstericos(linhas){
-    for(let i = 1; i<=linhas; i++){
-        let padrao = '';
-        for(let j =0; j<i; j++){
-            padrao +="*";
+// function exibirAstericos(linhas){
+//     for(let i = 1; i<=linhas; i++){
+//         let padrao = '';
+//         for(let j =0; j<i; j++){
+//             padrao +="*";
+//         }
+//         console.log(padrao);
+//     }
+// }
+// exibirAstericos(5);
+//Fim aula 20
+
+//Inicio aula 21 - Mostra números primos
+//Passar um limite e mostrar os números primos
+function ePrimo(numero){
+        for(let divisor = 2; divisor < numero; divisor++){
+            if(numero % divisor === 0){
+                return false;
+            }
         }
-        console.log(padrao);
+        return true;
+}
+function mostrarPrimo(limite){
+    for(let numero = 2; numero <=limite; numero++){
+        if(ePrimo(numero)) console.log(numero);
     }
 }
-exibirAstericos(5);
-//Fim aula 20
+mostrarPrimo(30);
+//Fim aula 21
