@@ -460,3 +460,16 @@
 
 // const mesa = criarMesa('5m','MarcaQuadrada',4);
 // console.log(mesa);
+//Fim aula 22
+
+//Inicio aula 23 -  Constructor Functions
+//Pascal Case 
+// function Celular(marcaCelular,tamanhoTela,capacidadeBateria){
+//     this.marcaCelular = marcaCelular,
+//     this.tamanhoTela = tamanhoTela,
+//     this.capacidadeBateria = capacidadeBateria,
+//     this.ligar = function(){
+//         console.log("Fazendo Ligação...");
+//     }
+// }
+//Fim aula 23 
