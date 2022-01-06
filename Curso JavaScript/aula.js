@@ -524,3 +524,11 @@
 // console.log(noteebokclone);
 // console.log(noteclone);
 //Fim aula 25
+
+//Inicio aula 26 - String
+//Tipo primitivo 
+// const mensagem = "minha primeira mensagem";
+
+// //Tipo objeto
+// const outraMensagem = new String('bom dia'); 
+//Fim aula 26
