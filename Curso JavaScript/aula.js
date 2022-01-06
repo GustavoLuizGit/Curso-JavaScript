@@ -473,3 +473,54 @@
 //     }
 // }
 //Fim aula 23 
+
+//Inicio aula 24 - Natureza dinamica de objetos
+// const mouse = {
+//     cor : 'red',
+//     marca: 'dazz'
+// }
+// mouse.velocidade = 5000;
+// mouse.trocarDPI = function(){
+//     console.log('mudando DPI');
+// }
+// delete mouse.velocidade;
+// console.log(mouse);
+//Fim aula 24
+
+//Inicio Aula 25 - Clonar
+// const celular = {
+//     marca: 'Asus',
+//     touch: 'Toque',
+//     numero: 55555555,
+//     ligar: function(){
+//         console.log("Ligando ... ")
+//     }
+// }
+// const novoObjeto = Object.assign({
+//     bateria : 5000
+// },celular);
+// console.log(novoObjeto);
+
+// // outra forma
+
+// const objeto2 = {...celular};
+// console.log(objeto2);
+// const notebook = {
+//     marca : 'Aspire 5 ',
+//     bateria : 5000,
+//     preco: 2500.00,
+//     tamanho:{
+//         horizontal: 1,
+//         vertical:2
+//     },
+//     Power: function(){
+//         console.log("Desligando o notebook")
+//     }  
+// }
+// const noteebokclone = Object.assign({
+//     clone: 'X'
+// },notebook)
+// const noteclone = {...notebook};
+// console.log(noteebokclone);
+// console.log(noteclone);
+//Fim aula 25
