@@ -532,3 +532,16 @@
 // //Tipo objeto
 // const outraMensagem = new String('bom dia'); 
 //Fim aula 26
+
+//Inicio aula 27 - Template Literal
+// const mensagem = 'Oi isso é a minha\n' +  
+// 'primeira mensagem';
+// console.log(mensagem); 
+// usar caracteres que ajudam '
+
+//Inicio Aula 28 - Date 
+// const data1 = new Date();
+const date2 = new Date("March 06 2019 09:30");
+const date3 = new Date(2019,03,06,9,30);
+
+date3.setFullYear(2030);
