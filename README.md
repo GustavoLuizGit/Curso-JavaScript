@@ -1,3 +1,2 @@
 # Curso-JavaScript
-
-Curso para aprender JavaScript
+ Curso para aprender JavaScript
